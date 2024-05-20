@@ -1,0 +1,16 @@
+
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <welcome-file-list>
+  <welcome-file>Signup.html</welcome-file>
+  </welcome-file-list>
+  <servlet>
+  <servlet-name>SignUp</servlet-name>
+  <servlet-class>com.tut.controller.Signup</servlet-class>
+  </servlet>
+  <servlet-mapping>
+   <servlet-name>SignUp</servlet-name>
+   <url-pattern>/signup</url-pattern>
+  </servlet-mapping>
+</web-app>
